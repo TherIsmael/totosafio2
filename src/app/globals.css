@@ -16,3 +16,10 @@ a{
     text-decoration: none;
 }
 
+.buttonMain{
+
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
