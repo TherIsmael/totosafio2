@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 import Header from "../modules/header";
 import Card from "../modules/card";
 import Link from 'next/link';
-
+import Text from "../modules/text"
 
 export default function Home() {
   return (
@@ -13,17 +13,33 @@ export default function Home() {
       </section>
 
       <section className={`${styles.content} ${styles['content-welcome']}`}>
-        <p className={`${styles.titulo} `}>Bienvenido a Totosafio 2</p>
+        <p className="titulo">Bienvenido a Totosafio 2</p>
         <p className={`${styles.texto} `}>asdsdfhsuidhfsdfshdjgfhdsgf yuadgaafhdgsfhasgfjhegf aseh ssdhfsdajfgasdj fashdjgfjhajsd sahjdsgfjhasdg fad hfjksh lash fdshfsdbfhja </p>
         <Link href="#" className="buttonMain">Miembros vivos</Link>
       </section>
       <section className={`${styles.content} ${styles['content-clanes']}`}>
-        <p className={`${styles.titulo} `}>Clanes</p>
-        <div>
-          <Card />
+        <p className="titulo">Clanes</p>
+        <div className={`${styles.cardContainer}`}>
+          {Array.from({ length: 3 }).map((_, index) => (
+        <Card key={index} />
+      ))}
         </div>
       </section>
-      <section className={`${styles.content} ${styles['content-mods']}`}></section>
+      <section className={`${styles.content} ${styles['content-mods']}`}>
+        <div className={`${styles.modsTexto} `}> 
+          <p className="titulo">Mods destacados</p>
+          <div className={`${styles.modsTextoGroup} `}>
+            <Text />
+            <Text />
+            <Text />
+            
+           
+            
+          </div>
+          <Link href="./mods" className="buttonMain">Ver mods</Link>
+        </div>
+        <div className={`${styles.modsImagen} `}></div>
+      </section>
    </div>
   );
 }

@@ -2,6 +2,7 @@
 :root{
     --font-size: 24px;
     --font-family: Oswald;
+    --secondary-color:#a4a4a4;
 }
 
 *{
@@ -28,12 +29,21 @@ a{
     display: flex;
     flex-flow: column nowrap;
     width: 336px;
-    height: 578px;
-    background-color: red;
-    justify-content: space-evenly;
+    height: 568px;
+    justify-content:flex-start;
+    gap: 24px;
 }
 .cardTitle{
     font-size: var(--font-size);
     width:fit-content;
     
+}
+.ligthText{
+    color: var(--secondary-color);
+}
+
+.titulo{
+    font-size: 3rem;
+    height: fit-content;
+    width: fit-content;
 }

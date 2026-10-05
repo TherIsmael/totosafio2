@@ -14,7 +14,7 @@ export default function Header() {
         <Link className="links" href="#">Clanes</Link>
         <Link className="links" href="#">Miembros</Link>
         <Link className="links" href="#">Eventos</Link>
-        <Link className="links" href="#">Mods</Link>
+        <Link className="links" href="/mods">Mods</Link>
       </section>
     </header>
   );
