@@ -9,7 +9,8 @@
     font-size: var(--font-size);
     margin: 0;
     box-sizing: border-box;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 a{
@@ -17,9 +18,22 @@ a{
 }
 
 .buttonMain{
-
-    background-color: black;
+    background-color: white;
     border-radius: 8px;
-    color: white;
+    color: black;
     text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 336px;
+    height: 578px;
+    background-color: red;
+    justify-content: space-evenly;
+}
+.cardTitle{
+    font-size: var(--font-size);
+    width:fit-content;
+    
 }

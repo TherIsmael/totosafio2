@@ -24,6 +24,7 @@
     height: 434px;
     background-image: url(../../public/logoTotosafio2.png);
     background-size:cover;
+    background-color:initial;
 }
 
 .content-welcome{
@@ -46,9 +47,10 @@
 
 .content-welcome a{
     width: 245px;
-    height: 76px;
-    padding: 20px 32px;
-
+    height: auto;
+    padding-block-start: 20px;
+    padding-block-end: 24px;
+    padding-inline: 32px;
 }
 
 
