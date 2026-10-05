@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+:root{
+    --font-size: 24px;
+    --font-family: Oswald;
+}
+
+*{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
