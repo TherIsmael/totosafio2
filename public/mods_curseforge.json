@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "nombre_mod": "Accessories",
+    "descripcion": "Sistema de ranuras adicionales para equipar accesorios.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/accessories"
+  },
+  {
+    "id": 2,
+    "nombre_mod": "Advancement Plaques",
+    "descripcion": "Mejora la presentación de los logros con avisos más vistosos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/advancement-plaques"
+  },
+  {
+    "id": 3,
+    "nombre_mod": "Alloy Forgery",
+    "descripcion": "Permite crear aleaciones y recetas de fabricación personalizadas.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/alloy-forgery"
+  },
+  {
+    "id": 4,
+    "nombre_mod": "AppleSkin",
+    "descripcion": "Muestra información adicional sobre hambre y saturación.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/appleskin"
+  },
+  {
+    "id": 5,
+    "nombre_mod": "Aquamirae",
+    "descripcion": "Añade contenido y exploración temática relacionada con ambientes acuáticos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/aquamirae"
+  },
+  {
+    "id": 6,
+    "nombre_mod": "Architectury API",
+    "descripcion": "Biblioteca que facilita el desarrollo de mods multiplataforma.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/architectury-api"
+  },
+  {
+    "id": 7,
+    "nombre_mod": "Artifacts",
+    "descripcion": "Añade objetos especiales que proporcionan diferentes efectos y habilidades.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/artifacts"
+  },
+  {
+    "id": 8,
+    "nombre_mod": "AttributeFix",
+    "descripcion": "Permite solucionar y ampliar los límites de ciertos atributos de Minecraft.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/attributefix"
+  },
+  {
+    "id": 9,
+    "nombre_mod": "Balm",
+    "descripcion": "Biblioteca compartida utilizada como dependencia por varios mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/balm"
+  },
+  {
+    "id": 10,
+    "nombre_mod": "BCLib",
+    "descripcion": "Biblioteca utilizada principalmente por los mods de BetterEnd y BetterNether.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/bclib"
+  },
+  {
+    "id": 11,
+    "nombre_mod": "Better End",
+    "descripcion": "Amplía y transforma el End con nuevos biomas, estructuras y contenido.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/betterend"
+  },
+  {
+    "id": 12,
+    "nombre_mod": "Better End Cities",
+    "descripcion": "Mejora y amplía las ciudades del End de BetterEnd.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/better-end-cities-better-end"
+  },
+  {
+    "id": 13,
+    "nombre_mod": "Bookshelf",
+    "descripcion": "Biblioteca de código utilizada por varios mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/bookshelf"
+  },
+  {
+    "id": 14,
+    "nombre_mod": "Bountiful",
+    "descripcion": "Añade tablones de encargos con recompensas por completar objetivos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/bountiful"
+  },
+  {
+    "id": 15,
+    "nombre_mod": "Cardinal Components API",
+    "descripcion": "API para añadir datos y componentes personalizados a entidades y objetos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/cardinal-components-api"
+  },
+  {
+    "id": 16,
+    "nombre_mod": "Chunky",
+    "descripcion": "Permite pregenerar chunks para mejorar la exploración y el rendimiento del servidor.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator"
+  },
+  {
+    "id": 17,
+    "nombre_mod": "Cloth Config API",
+    "descripcion": "Biblioteca para crear y administrar configuraciones de mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/cloth-config"
+  },
+  {
+    "id": 18,
+    "nombre_mod": "Clumps",
+    "descripcion": "Agrupa los orbes de experiencia para reducir entidades innecesarias.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/clumps"
+  },
+  {
+    "id": 19,
+    "nombre_mod": "CorgiLib",
+    "descripcion": "Biblioteca requerida por diferentes mods de contenido y estructuras.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/corgilib"
+  },
+  {
+    "id": 20,
+    "nombre_mod": "CraftTweaker",
+    "descripcion": "Permite modificar recetas, scripts y diferentes aspectos del juego.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker"
+  },
+  {
+    "id": 21,
+    "nombre_mod": "Creeper Overhaul",
+    "descripcion": "Añade nuevas variantes de creepers adaptadas a diferentes biomas.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul"
+  },
+  {
+    "id": 22,
+    "nombre_mod": "Cupboard",
+    "descripcion": "Biblioteca utilizada como dependencia por varios mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/cupboard"
+  },
+  {
+    "id": 23,
+    "nombre_mod": "Data Anchor",
+    "descripcion": "Biblioteca y sistema para almacenar y manejar datos adicionales.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/data-anchor"
+  },
+  {
+    "id": 24,
+    "nombre_mod": "Deeper and Darker",
+    "descripcion": "Amplía el contenido relacionado con el Deep Dark y el Warden.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/deeperdarker"
+  },
+  {
+    "id": 25,
+    "nombre_mod": "Drippy Loading Screen",
+    "descripcion": "Permite personalizar la pantalla de carga de Minecraft.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/drippy-loading-screen"
+  },
+  {
+    "id": 26,
+    "nombre_mod": "When Dungeons Arise",
+    "descripcion": "Añade grandes estructuras y mazmorras para explorar.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise"
+  },
+  {
+    "id": 27,
+    "nombre_mod": "Enchantment Descriptions",
+    "descripcion": "Muestra una descripción de lo que hace cada encantamiento.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions"
+  },
+  {
+    "id": 28,
+    "nombre_mod": "Enhanced Celestials",
+    "descripcion": "Añade eventos lunares y diferentes fases especiales de la luna.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials"
+  },
+  {
+    "id": 29,
+    "nombre_mod": "ExtraLib",
+    "descripcion": "Biblioteca de soporte para otros mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/extralib"
+  },
+  {
+    "id": 30,
+    "nombre_mod": "Fabric API",
+    "descripcion": "API fundamental utilizada por numerosos mods de Fabric.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/fabric-api"
+  },
+  {
+    "id": 31,
+    "nombre_mod": "End Remastered",
+    "descripcion": "Cambia la progresión hacia el End mediante nuevos ojos y requisitos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/endremastered"
+  },
+  {
+    "id": 32,
+    "nombre_mod": "Fabric Language Kotlin",
+    "descripcion": "Permite ejecutar mods de Fabric desarrollados en Kotlin.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin"
+  },
+  {
+    "id": 33,
+    "nombre_mod": "FancyMenu",
+    "descripcion": "Permite personalizar menús, pantallas y elementos de la interfaz.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/fancymenu"
+  },
+  {
+    "id": 34,
+    "nombre_mod": "Farmer's Delight Refabricated",
+    "descripcion": "Añade agricultura, cocina y nuevas formas de preparar alimentos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated"
+  },
+  {
+    "id": 35,
+    "nombre_mod": "Faux Custom Entity Data",
+    "descripcion": "Biblioteca para manejar datos personalizados de entidades.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/faux-custom-entity-data"
+  },
+  {
+    "id": 36,
+    "nombre_mod": "FerriteCore",
+    "descripcion": "Optimiza el uso de memoria de Minecraft.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/ferritecore"
+  },
+  {
+    "id": 37,
+    "nombre_mod": "Forge Config API Port",
+    "descripcion": "Port de la API de configuración de Forge para mods de Fabric.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port"
+  },
+  {
+    "id": 38,
+    "nombre_mod": "FTB Library",
+    "descripcion": "Biblioteca compartida para los mods de FTB.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric"
+  },
+  {
+    "id": 39,
+    "nombre_mod": "FTB Quests",
+    "descripcion": "Sistema de misiones y objetivos para modpacks.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric"
+  },
+  {
+    "id": 40,
+    "nombre_mod": "FTB Teams",
+    "descripcion": "Permite crear y administrar equipos en Minecraft.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric"
+  },
+  {
+    "id": 41,
+    "nombre_mod": "GeckoLib",
+    "descripcion": "Biblioteca para animaciones avanzadas de entidades y objetos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/geckolib"
+  },
+  {
+    "id": 42,
+    "nombre_mod": "Hardcore Revival",
+    "descripcion": "Añade mecánicas para revivir jugadores en determinadas situaciones.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/hardcore-revival"
+  },
+  {
+    "id": 43,
+    "nombre_mod": "Iceberg",
+    "descripcion": "Biblioteca utilizada por varios mods para funciones compartidas.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/iceberg"
+  },
+  {
+    "id": 44,
+    "nombre_mod": "Immersive Armors",
+    "descripcion": "Añade nuevos conjuntos de armaduras con diseños diferentes.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/immersive-armors"
+  },
+  {
+    "id": 45,
+    "nombre_mod": "Incendium",
+    "descripcion": "Mejora el Nether mediante nuevos biomas, estructuras y zonas.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/incendium"
+  },
+  {
+    "id": 46,
+    "nombre_mod": "Inventory Profiles Next",
+    "descripcion": "Añade organización automática y herramientas para administrar el inventario.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next"
+  },
+  {
+    "id": 47,
+    "nombre_mod": "Iris Shaders",
+    "descripcion": "Permite utilizar shaders y efectos gráficos avanzados.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/irisshaders"
+  },
+  {
+    "id": 48,
+    "nombre_mod": "Just Enough Items",
+    "descripcion": "Permite consultar objetos, recetas y usos desde el inventario.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/jei"
+  },
+  {
+    "id": 49,
+    "nombre_mod": "JEITweaker",
+    "descripcion": "Integra y modifica información y recetas mostradas por JEI.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/jeitweaker"
+  },
+  {
+    "id": 50,
+    "nombre_mod": "Kambrik",
+    "descripcion": "Biblioteca utilizada por mods de contenido y utilidades.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/kambrik"
+  },
+  {
+    "id": 51,
+    "nombre_mod": "Konkrete",
+    "descripcion": "Biblioteca utilizada principalmente por mods de personalización.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/konkrete"
+  },
+  {
+    "id": 52,
+    "nombre_mod": "libIPN",
+    "descripcion": "Biblioteca necesaria para Inventory Profiles Next.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/libipn"
+  },
+  {
+    "id": 53,
+    "nombre_mod": "Limited Lives",
+    "descripcion": "Añade un sistema de vidas limitadas para jugadores.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/limited-lives-fabric"
+  },
+  {
+    "id": 54,
+    "nombre_mod": "Lithium",
+    "descripcion": "Optimiza diferentes sistemas internos de Minecraft para mejorar el rendimiento.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/lithium"
+  },
+  {
+    "id": 55,
+    "nombre_mod": "Lithostitched",
+    "descripcion": "Biblioteca para generación de mundo y contenido relacionado con estructuras.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/lithostitched"
+  },
+  {
+    "id": 56,
+    "nombre_mod": "Melody",
+    "descripcion": "Biblioteca para reproducir y administrar audio en mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/melody"
+  },
+  {
+    "id": 57,
+    "nombre_mod": "Moog's End Structures",
+    "descripcion": "Añade nuevas estructuras para explorar en el End.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/moogs-end-structures"
+  },
+  {
+    "id": 58,
+    "nombre_mod": "Moog's Structure Lib",
+    "descripcion": "Biblioteca utilizada por los mods de estructuras de Moog.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/moogs-structure-lib"
+  },
+  {
+    "id": 59,
+    "nombre_mod": "Obscure API",
+    "descripcion": "Biblioteca compartida para varios mods de Obscuria.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/obscure-api"
+  },
+  {
+    "id": 60,
+    "nombre_mod": "Open Parties and Claims",
+    "descripcion": "Permite crear grupos y proteger zonas del mundo.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims"
+  },
+  {
+    "id": 61,
+    "nombre_mod": "owo-lib",
+    "descripcion": "Biblioteca de utilidades y componentes para mods de Fabric.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/owo-lib"
+  },
+  {
+    "id": 62,
+    "nombre_mod": "Player Animator",
+    "descripcion": "Biblioteca para añadir animaciones personalizadas a jugadores.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/playeranimator"
+  },
+  {
+    "id": 63,
+    "nombre_mod": "Presence Footsteps",
+    "descripcion": "Mejora los sonidos de pasos dependiendo de las superficies.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/presence-footsteps"
+  },
+  {
+    "id": 64,
+    "nombre_mod": "Resourceful Config",
+    "descripcion": "Biblioteca para crear configuraciones de mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/resourceful-config"
+  },
+  {
+    "id": 65,
+    "nombre_mod": "Resourceful Lib",
+    "descripcion": "Biblioteca compartida para diferentes mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib"
+  },
+  {
+    "id": 66,
+    "nombre_mod": "Simply Tooltips",
+    "descripcion": "Mejora y personaliza la información mostrada en los tooltips.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/simply-tooltips"
+  },
+  {
+    "id": 67,
+    "nombre_mod": "Sodium",
+    "descripcion": "Optimiza el renderizado para mejorar significativamente el rendimiento.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/sodium"
+  },
+  {
+    "id": 68,
+    "nombre_mod": "Sound Physics Remastered",
+    "descripcion": "Añade reverberación y efectos de sonido más realistas.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
+  },
+  {
+    "id": 69,
+    "nombre_mod": "SuperMartijn642's Config Lib",
+    "descripcion": "Biblioteca para administrar configuraciones de mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib"
+  },
+  {
+    "id": 70,
+    "nombre_mod": "Terralith",
+    "descripcion": "Añade una gran variedad de biomas y transforma la generación del mundo.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/terralith"
+  },
+  {
+    "id": 71,
+    "nombre_mod": "Traveler's Backpack",
+    "descripcion": "Añade mochilas con almacenamiento y diferentes funciones.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/travelers-backpack-fabric"
+  },
+  {
+    "id": 72,
+    "nombre_mod": "Trinkets",
+    "descripcion": "Sistema de ranuras adicionales para equipar objetos especiales.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/trinkets"
+  },
+  {
+    "id": 73,
+    "nombre_mod": "The Twilight Forest",
+    "descripcion": "Añade una nueva dimensión llena de estructuras, biomas y exploración.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest"
+  },
+  {
+    "id": 74,
+    "nombre_mod": "UI Lib",
+    "descripcion": "Biblioteca para crear interfaces de usuario para mods.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/ui-lib"
+  },
+  {
+    "id": 75,
+    "nombre_mod": "Simple Voice Chat",
+    "descripcion": "Añade comunicación por voz dentro del juego.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat"
+  },
+  {
+    "id": 76,
+    "nombre_mod": "Waystones",
+    "descripcion": "Permite crear puntos de viaje rápido entre diferentes lugares.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/waystones"
+  },
+  {
+    "id": 77,
+    "nombre_mod": "WunderLib",
+    "descripcion": "Biblioteca utilizada por varios mods de contenido.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/wunderlib"
+  },
+  {
+    "id": 78,
+    "nombre_mod": "Xaero's Minimap",
+    "descripcion": "Añade un minimapa configurable para facilitar la navegación.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap"
+  },
+  {
+    "id": 79,
+    "nombre_mod": "You're in Grave Danger",
+    "descripcion": "Añade tumbas para conservar los objetos al morir.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger"
+  },
+  {
+    "id": 80,
+    "nombre_mod": "YUNG's API",
+    "descripcion": "Biblioteca necesaria para varios mods de estructuras de YUNG.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/yungs-api"
+  },
+  {
+    "id": 81,
+    "nombre_mod": "YUNG's Better Dungeons",
+    "descripcion": "Reemplaza las mazmorras normales por estructuras más elaboradas.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-fabric"
+  },
+  {
+    "id": 82,
+    "nombre_mod": "YUNG's Better End Island",
+    "descripcion": "Mejora la isla central del End y su entorno.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-fabric"
+  },
+  {
+    "id": 83,
+    "nombre_mod": "YUNG's Better Jungle Temples",
+    "descripcion": "Mejora las estructuras y desafíos de los templos de jungla.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-fabric"
+  },
+  {
+    "id": 84,
+    "nombre_mod": "ChoiceTheorem's Overhauled Village",
+    "descripcion": "Mejora las aldeas con nuevas construcciones y diseños.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village"
+  }
+]
