@@ -23,6 +23,7 @@ a{
     border-radius: 8px;
     color: black;
     text-align: center;
+    visibility: hidden;
 }
 
 .card{

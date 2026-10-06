@@ -16,6 +16,21 @@
     height: 400px;
 }
 .modsCard div section{
-    
     background-color: chartreuse;
+}
+.modsCard div section + div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.modsText{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    width: 100%;
+    padding-inline-start: 8vw;
+}
+.modsMain a{
+    visibility: visible !important;
 }

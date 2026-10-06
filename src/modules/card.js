@@ -9,6 +9,7 @@ export default function Card() {
         <div className="cardText">
             <h2 className="cardTitle">clan</h2>
             <p className="ligthText">texto de prueba</p>
+            <a href="#" className="buttonMain">link</a>
         </div>
     </div>
   );
