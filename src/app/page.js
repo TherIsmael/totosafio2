@@ -2,7 +2,8 @@ import styles from "./page.module.css";
 import Header from "../modules/header";
 import Card from "../modules/card";
 import Link from 'next/link';
-import Text from "../modules/text"
+import Text from "../modules/text";
+import modsData from "../../public/mods_curseforge.json";
 
 export default function Home() {
   return (
@@ -37,11 +38,21 @@ export default function Home() {
       <section className={`${styles.content} ${styles['content-mods']}`}>
         <div className={`${styles.modsTexto} `}> 
           <p className="titulo">Mods destacados</p>
+          
           <div className={`${styles.modsTextoGroup} `}>
-            <Text />
-            <Text />
-            <Text />
-          </div>
+            {modsData.map((mod,index) =>{
+              if (mod.id <= 3){
+                return(
+                  <Text 
+                    key={mod.id}
+                    title={mod.nombre_mod}
+                    text={mod.descripcion}
+                  />  
+                );
+              }
+            }
+          )}
+          </div> 
           <Link href="./mods" className="buttonMain">Ver mods</Link>
         </div>
         <div className={`${styles.modsImagen} `}></div>
