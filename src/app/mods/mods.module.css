@@ -4,10 +4,12 @@
     flex-direction: column;
     align-items: center;
 }
+.modsMain img{
+    border-radius: 8px;
+}
 .modsCard{
     width: 1280px;
-    height: 700px;
-    background-color: red;
+    height: auto;
 
 }
 .modsCard div{
@@ -16,8 +18,9 @@
     height: 400px;
 }
 .modsCard div section{
-    background-color: chartreuse;
+    background-color:initial;
 }
+
 .modsCard div section + div{
     display: flex;
     justify-content: center;
@@ -30,7 +33,11 @@
     align-content: flex-start;
     width: 100%;
     padding-inline-start: 8vw;
+    padding-block-end: 220px;
 }
 .modsMain a{
     visibility: visible !important;
+    width: 248px;
+    height: 60px;
+    padding-block: 12px;
 }

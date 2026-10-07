@@ -3,32 +3,38 @@
     "id": 1,
     "nombre_mod": "Accessories",
     "descripcion": "Sistema de ranuras adicionales para equipar accesorios.",
-    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/accessories"
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/accessories",
+    "imagen":"accsessories.webp"
   },
   {
     "id": 2,
     "nombre_mod": "Advancement Plaques",
     "descripcion": "Mejora la presentación de los logros con avisos más vistosos.",
-    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/advancement-plaques"
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/advancement-plaques",
+    "imagen":"advancement_plaques.png"
   },
   {
     "id": 3,
-    "nombre_mod": "Alloy Forgery",
-    "descripcion": "Permite crear aleaciones y recetas de fabricación personalizadas.",
-    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/alloy-forgery"
+    "nombre_mod": "Better End",
+    "descripcion": "Amplía y transforma el End con nuevos biomas, estructuras y contenido.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/betterend",
+    "imagen":"better_end.png"
   },
+  
   {
     "id": 4,
+    "nombre_mod": "Aquamirae",
+    "descripcion": "Añade contenido y exploración temática relacionada con ambientes acuáticos.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/aquamirae",
+    "imagen":"aquamirae.jpg"
+  },
+  {
+    "id": 5,
     "nombre_mod": "AppleSkin",
     "descripcion": "Muestra información adicional sobre hambre y saturación.",
     "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/appleskin"
   },
-  {
-    "id": 5,
-    "nombre_mod": "Aquamirae",
-    "descripcion": "Añade contenido y exploración temática relacionada con ambientes acuáticos.",
-    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/aquamirae"
-  },
+  
   {
     "id": 6,
     "nombre_mod": "Architectury API",
@@ -61,9 +67,9 @@
   },
   {
     "id": 11,
-    "nombre_mod": "Better End",
-    "descripcion": "Amplía y transforma el End con nuevos biomas, estructuras y contenido.",
-    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/betterend"
+    "nombre_mod": "Alloy Forgery",
+    "descripcion": "Permite crear aleaciones y recetas de fabricación personalizadas.",
+    "link_curseforge": "https://www.curseforge.com/minecraft/mc-mods/alloy-forgery"
   },
   {
     "id": 12,

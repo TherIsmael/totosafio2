@@ -1,7 +1,19 @@
 .cardImage{
     width: 100%;
-    height: 404px;
-    background-color: aqua;
-    background-image: url("#");
+    height: 404px;    
     border-radius: 8px;
+}
+
+.cardImage img{
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.classL .classR{
+    display: flex;
+}
+.classL{
+    flex-direction: row-reverse !important;
+}
+.classR{
+    flex-direction: row !important;
 }
