@@ -2,6 +2,7 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+  devIndicators: false, // <-- Solo agrega esta línea
 };
 
 export default nextConfig;

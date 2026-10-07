@@ -1,45 +1,35 @@
-import styles from "./page.module.css";
-import Header from "../modules/header";
-import Card from "../modules/card";
-import Link from 'next/link';
-import Text from "../modules/text"
+import styles from "./page.module.css"
+import Header from "../modules/header"
+import Card from "../modules/card"
+import modsData from '../../public/mods_curseforge.json';
 
 export default function Home() {
   return (
-   <div className={styles.main}>
-      <Header />
-      <section className={`${styles.content} ${styles['content-logo']}`}>
-        <div className={styles.logo}></div>
-      </section>
+   <section className={`${styles.modsMain}`}>
+        <Header />
+        <div className={`${styles.modsText}`}>
+            <p className="titulo">Mods incluidos en totosafio 2</p>
+        </div>
+        <div className={`${styles.modsCard}`}>
+            {modsData.map((mod, index) => {
+          const claseIntercalada = index % 2 === 0 ? 'classR' : 'classL';
+          
+          const ocultarImagen = index >= 4; 
 
-      <section className={`${styles.content} ${styles['content-welcome']}`}>
-        <p className="titulo">Bienvenido a Totosafio 2</p>
-        <p className={`${styles.texto} `}>asdsdfhsuidhfsdfshdjgfhdsgf yuadgaafhdgsfhasgfjhegf aseh ssdhfsdajfgasdj fashdjgfjhajsd sahjdsgfjhasdg fad hfjksh lash fdshfsdbfhja </p>
-        <Link href="#" className="buttonMain">Miembros vivos</Link>
-      </section>
-      <section className={`${styles.content} ${styles['content-clanes']}`}>
-        <p className="titulo">Clanes</p>
-        <div className={`${styles.cardContainer}`}>
-          {Array.from({ length: 3 }).map((_, index) => (
-        <Card key={index} />
-      ))}
+          return (
+            <Card 
+                key={mod.id} 
+                title={mod.nombre_mod} 
+                text={mod.descripcion} 
+                link={mod.link_curseforge}
+                customClass={claseIntercalada} 
+                hideImage={ocultarImagen}
+                imageSrc={`/assets/img_mods/${mod.imagen}`} 
+                textA={"Ver en forge"}
+            />
+          );
+        })}
         </div>
-      </section>
-      <section className={`${styles.content} ${styles['content-mods']}`}>
-        <div className={`${styles.modsTexto} `}> 
-          <p className="titulo">Mods destacados</p>
-          <div className={`${styles.modsTextoGroup} `}>
-            <Text />
-            <Text />
-            <Text />
-            
-           
-            
-          </div>
-          <Link href="./mods" className="buttonMain">Ver mods</Link>
-        </div>
-        <div className={`${styles.modsImagen} `}></div>
-      </section>
-   </div>
+    </section>
   );
 }
