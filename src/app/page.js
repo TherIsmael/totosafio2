@@ -18,13 +18,22 @@ export default function Home() {
         <Link href="#" className="buttonMain">Miembros vivos</Link>
       </section>
       <section className={`${styles.content} ${styles['content-clanes']}`}>
-        <p className="titulo">Clanes</p>
-        <div className={`${styles.cardContainer}`}>
-          {Array.from({ length: 3 }).map((_, index) => (
-        <Card key={index} />
-      ))}
-        </div>
-      </section>
+  <p className="titulo">Clanes</p>
+  <div className={`${styles.cardContainer}`}>
+    {Array.from({ length: 3 }).map((_, index) => (
+      <Card 
+        key={index} 
+        title={`Clan ${index + 1}`} 
+        text="Descripción breve de este clan." 
+        link="#" 
+        textA="Ver clan" 
+        customClass="class1" /* Puedes usar la lógica de index % 2 aquí también si quieres intercalar */
+        imageSrc="/ruta-imagen-clan.png" /* Pon aquí la ruta real de la imagen para los clanes, o null si no llevan imagen */
+        hideImage={false} 
+      />
+    ))}
+  </div>
+</section>
       <section className={`${styles.content} ${styles['content-mods']}`}>
         <div className={`${styles.modsTexto} `}> 
           <p className="titulo">Mods destacados</p>
@@ -32,9 +41,6 @@ export default function Home() {
             <Text />
             <Text />
             <Text />
-            
-           
-            
           </div>
           <Link href="./mods" className="buttonMain">Ver mods</Link>
         </div>
