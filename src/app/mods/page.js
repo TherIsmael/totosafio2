@@ -1,7 +1,7 @@
 import styles from "./mods.module.css"
 import Header from "../../modules/header"
 import Card from "../../modules/card"
-import modsData from '../../../public/mods_curseforge.json';
+import modsData from '../../data/mods_curseforge.json';
 
 export default function Mods() {
   return (

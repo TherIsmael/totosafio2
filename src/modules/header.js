@@ -11,9 +11,9 @@ export default function Header() {
       </section>
 
       <section className={styles.header_rigth}>
-        <Link className="links" href="#">Clanes</Link>
+        <Link className="links" href="/clans">Clanes</Link>
         <Link className="links" href="/members">Miembros</Link>
-        <Link className="links" href="#">Eventos</Link>
+        <Link className="links" href="/events">Eventos</Link>
         <Link className="links" href="/mods">Mods</Link>
       </section>
     </header>

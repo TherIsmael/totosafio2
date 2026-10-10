@@ -1,0 +1,12 @@
+.clansMain{
+    padding-inline: 8%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.clansGrid{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}

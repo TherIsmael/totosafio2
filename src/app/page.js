@@ -3,7 +3,8 @@ import Header from "../modules/header";
 import Card from "../modules/card";
 import Link from 'next/link';
 import Text from "../modules/text";
-import modsData from "../../public/mods_curseforge.json";
+import modsData from "../data/mods_curseforge.json";
+import clansData from "../data/clans.json"
 
 export default function Home() {
   return (
@@ -21,18 +22,25 @@ export default function Home() {
       <section className={`${styles.content} ${styles['content-clanes']}`}>
   <p className="titulo">Clanes</p>
   <div className={`${styles.cardContainer}`}>
-    {Array.from({ length: 3 }).map((_, index) => (
-      <Card 
-        key={index} 
-        title={`Clan ${index + 1}`} 
-        text="Descripción breve de este clan." 
-        link="#" 
-        textA="Ver clan" 
-        customClass="class1" /* Puedes usar la lógica de index % 2 aquí también si quieres intercalar */
-        imageSrc="/ruta-imagen-clan.png" /* Pon aquí la ruta real de la imagen para los clanes, o null si no llevan imagen */
-        hideImage={false} 
-      />
-    ))}
+    {clansData.map((clan, index) => {
+      const claseIntercalada = index % 2 === 0 ? 'class1' : 'class2';
+
+      // Transformamos el arreglo en un texto separado por comas
+      const textoMiembros = clan.miembros.join(', ');
+
+      return (
+        <Card 
+          key={clan.id} 
+          title={clan.nombre_clan} 
+          text={textoMiembros} /* <--- Aquí pasamos el texto ya formateado */
+          link="#" 
+          textA="Ver clan" 
+          customClass={claseIntercalada} 
+          imageSrc={clan.imagen} 
+          hideImage={false} 
+        />
+      );
+    })}
   </div>
 </section>
       <section className={`${styles.content} ${styles['content-mods']}`}>
@@ -40,7 +48,7 @@ export default function Home() {
           <p className="titulo">Mods destacados</p>
           
           <div className={`${styles.modsTextoGroup} `}>
-            {modsData.map((mod,index) =>{
+            {modsData.map((mod) =>{
               if (mod.id <= 3){
                 return(
                   <Text 
@@ -55,7 +63,12 @@ export default function Home() {
           </div> 
           <Link href="./mods" className="buttonMain">Ver mods</Link>
         </div>
-        <div className={`${styles.modsImagen} `}></div>
+        <div className={`${styles.modsImagen} `}>
+          <img 
+          src="/assets/img_mods/aquamirae.jpg" 
+            alt="Imagen de mod"
+        />
+        </div>
       </section>
    </div>
   );

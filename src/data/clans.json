@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre_clan": "sikibis",
+        "miembros": [
+            "AngieAiram",
+            "Litaff",
+            "DL_1206"
+        ],
+        "imagen": "/assets/img_clans/skibidi.jpg"
+    },
+    {
+        "id": 2,
+        "nombre_clan": "ChiludosMC",
+        "miembros": [
+            "CTdarian",
+            "SGMario11",
+            "Suba404",
+            "Osva28th"
+        ],
+        "imagen": "/assets/img_clans/aldama.png"
+    },
+    {
+        "id": 3,
+        "nombre_clan": "SPP",
+        "miembros": [
+            "Wous3",
+            "Chelsea_IL",
+            "The_Fifster",
+            "Orsted5555",
+            "samuelelias154",
+            "TotoGame241",
+            "AdrianMz21"
+        ],
+        "imagen": "/assets/img_clans/spp.webp"
+    },
+    {
+        "id": 4,
+        "nombre_clan": "niggas",
+        "miembros": [
+            "Frutilupis18",
+            "x4naduu",
+            "saenzdenzel1011",
+            "Charlys16",
+            "PhantomXito",
+            "TheRichard1359"
+        ],
+        "imagen": "/assets/img_clans/niggas.jfif"
+    }
+]

@@ -1,0 +1,17 @@
+.eventosMain{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.eventosMain div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-block-end: 30px;
+}
+.eventosMain div p{
+    margin-block-end: 10px;
+}

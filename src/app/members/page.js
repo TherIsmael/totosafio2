@@ -11,12 +11,16 @@ export default function ListaMiembros() {
                 <p className="titulo">asjhk</p>
             </div>
             <div className={styles.membersGrid}>
-           {/* mandar nombre jugador, clan al que pertenece y skin en un json que contenga esa informacion*/}
+           { /*jugadores.map((jugador, index)=>{
+            return({*/}
+                <Card 
+                    title={/*jugador.nombre*/""}
+                    text={/*jugador.clan*/''}
+                />{/*}
+            );
+           })*/}
            
-            <Card 
-                title={"asddf"}
-                text={"fhdsg"}
-            />
+            
             
             </div>
         </div>
